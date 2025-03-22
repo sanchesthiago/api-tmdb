@@ -48,7 +48,7 @@ export class TvSeriesService {
           })),
         };
 
-        return reducedTvShow;
+        return data;
       })
       .catch((error) => {
         if (error.response) {
